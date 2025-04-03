@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		C5660A1F2D9ED6A5007C82CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5660A042D9ED6A2007C82CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5660A0B2D9ED6A2007C82CA;
+			remoteInfo = StudyConnect;
+		};
+		C5660A292D9ED6A5007C82CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5660A042D9ED6A2007C82CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5660A0B2D9ED6A2007C82CA;
+			remoteInfo = StudyConnect;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C5660A0C2D9ED6A2007C82CA /* StudyConnect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudyConnect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5660A1E2D9ED6A5007C82CA /* StudyConnectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StudyConnectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5660A282D9ED6A5007C82CA /* StudyConnectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StudyConnectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		C5660A0E2D9ED6A2007C82CA /* StudyConnect */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = StudyConnect;
+			sourceTree = "<group>";
+		};
+		C5660A212D9ED6A5007C82CA /* StudyConnectTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = StudyConnectTests;
+			sourceTree = "<group>";
+		};
+		C5660A2B2D9ED6A5007C82CA /* StudyConnectUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = StudyConnectUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5660A092D9ED6A2007C82CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5660A1B2D9ED6A5007C82CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5660A252D9ED6A5007C82CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C5660A032D9ED6A2007C82CA = {
+			isa = PBXGroup;
+			children = (
+				C5660A0E2D9ED6A2007C82CA /* StudyConnect */,
+				C5660A212D9ED6A5007C82CA /* StudyConnectTests */,
+				C5660A2B2D9ED6A5007C82CA /* StudyConnectUITests */,
+				C5660A0D2D9ED6A2007C82CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C5660A0D2D9ED6A2007C82CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5660A0C2D9ED6A2007C82CA /* StudyConnect.app */,
+				C5660A1E2D9ED6A5007C82CA /* StudyConnectTests.xctest */,
+				C5660A282D9ED6A5007C82CA /* StudyConnectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C5660A0B2D9ED6A2007C82CA /* StudyConnect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5660A322D9ED6A5007C82CA /* Build configuration list for PBXNativeTarget "StudyConnect" */;
+			buildPhases = (
+				C5660A082D9ED6A2007C82CA /* Sources */,
+				C5660A092D9ED6A2007C82CA /* Frameworks */,
+				C5660A0A2D9ED6A2007C82CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				C5660A0E2D9ED6A2007C82CA /* StudyConnect */,
+			);
+			name = StudyConnect;
+			packageProductDependencies = (
+			);
+			productName = StudyConnect;
+			productReference = C5660A0C2D9ED6A2007C82CA /* StudyConnect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C5660A1D2D9ED6A5007C82CA /* StudyConnectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5660A352D9ED6A5007C82CA /* Build configuration list for PBXNativeTarget "StudyConnectTests" */;
+			buildPhases = (
+				C5660A1A2D9ED6A5007C82CA /* Sources */,
+				C5660A1B2D9ED6A5007C82CA /* Frameworks */,
+				C5660A1C2D9ED6A5007C82CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5660A202D9ED6A5007C82CA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C5660A212D9ED6A5007C82CA /* StudyConnectTests */,
+			);
+			name = StudyConnectTests;
+			packageProductDependencies = (
+			);
+			productName = StudyConnectTests;
+			productReference = C5660A1E2D9ED6A5007C82CA /* StudyConnectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C5660A272D9ED6A5007C82CA /* StudyConnectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5660A382D9ED6A5007C82CA /* Build configuration list for PBXNativeTarget "StudyConnectUITests" */;
+			buildPhases = (
+				C5660A242D9ED6A5007C82CA /* Sources */,
+				C5660A252D9ED6A5007C82CA /* Frameworks */,
+				C5660A262D9ED6A5007C82CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5660A2A2D9ED6A5007C82CA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C5660A2B2D9ED6A5007C82CA /* StudyConnectUITests */,
+			);
+			name = StudyConnectUITests;
+			packageProductDependencies = (
+			);
+			productName = StudyConnectUITests;
+			productReference = C5660A282D9ED6A5007C82CA /* StudyConnectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5660A042D9ED6A2007C82CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					C5660A0B2D9ED6A2007C82CA = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					C5660A1D2D9ED6A5007C82CA = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = C5660A0B2D9ED6A2007C82CA;
+					};
+					C5660A272D9ED6A5007C82CA = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = C5660A0B2D9ED6A2007C82CA;
+					};
+				};
+			};
+			buildConfigurationList = C5660A072D9ED6A2007C82CA /* Build configuration list for PBXProject "StudyConnect" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C5660A032D9ED6A2007C82CA;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C5660A0D2D9ED6A2007C82CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5660A0B2D9ED6A2007C82CA /* StudyConnect */,
+				C5660A1D2D9ED6A5007C82CA /* StudyConnectTests */,
+				C5660A272D9ED6A5007C82CA /* StudyConnectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5660A0A2D9ED6A2007C82CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5660A1C2D9ED6A5007C82CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5660A262D9ED6A5007C82CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5660A082D9ED6A2007C82CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5660A1A2D9ED6A5007C82CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5660A242D9ED6A5007C82CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C5660A202D9ED6A5007C82CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5660A0B2D9ED6A2007C82CA /* StudyConnect */;
+			targetProxy = C5660A1F2D9ED6A5007C82CA /* PBXContainerItemProxy */;
+		};
+		C5660A2A2D9ED6A5007C82CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5660A0B2D9ED6A2007C82CA /* StudyConnect */;
+			targetProxy = C5660A292D9ED6A5007C82CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C5660A302D9ED6A5007C82CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C5660A312D9ED6A5007C82CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C5660A332D9ED6A5007C82CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StudyConnect/Preview Content\"";
+				DEVELOPMENT_TEAM = AUMQU27TLD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = akhil.StudyConnect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C5660A342D9ED6A5007C82CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StudyConnect/Preview Content\"";
+				DEVELOPMENT_TEAM = AUMQU27TLD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = akhil.StudyConnect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C5660A362D9ED6A5007C82CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AUMQU27TLD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = akhil.StudyConnectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StudyConnect.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StudyConnect";
+			};
+			name = Debug;
+		};
+		C5660A372D9ED6A5007C82CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AUMQU27TLD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = akhil.StudyConnectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StudyConnect.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StudyConnect";
+			};
+			name = Release;
+		};
+		C5660A392D9ED6A5007C82CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AUMQU27TLD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = akhil.StudyConnectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StudyConnect;
+			};
+			name = Debug;
+		};
+		C5660A3A2D9ED6A5007C82CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AUMQU27TLD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = akhil.StudyConnectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StudyConnect;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5660A072D9ED6A2007C82CA /* Build configuration list for PBXProject "StudyConnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5660A302D9ED6A5007C82CA /* Debug */,
+				C5660A312D9ED6A5007C82CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5660A322D9ED6A5007C82CA /* Build configuration list for PBXNativeTarget "StudyConnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5660A332D9ED6A5007C82CA /* Debug */,
+				C5660A342D9ED6A5007C82CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5660A352D9ED6A5007C82CA /* Build configuration list for PBXNativeTarget "StudyConnectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5660A362D9ED6A5007C82CA /* Debug */,
+				C5660A372D9ED6A5007C82CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5660A382D9ED6A5007C82CA /* Build configuration list for PBXNativeTarget "StudyConnectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5660A392D9ED6A5007C82CA /* Debug */,
+				C5660A3A2D9ED6A5007C82CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C5660A042D9ED6A2007C82CA /* Project object */;
+}
