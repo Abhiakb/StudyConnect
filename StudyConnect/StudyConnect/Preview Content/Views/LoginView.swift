@@ -101,7 +101,7 @@ struct LoginView: View {
                 
                 HStack(spacing: 20) {
                     Button(action: {}) {
-                        Image("google-icon") 
+                        Image("google") 
                             .resizable()
                             .frame(width: 24, height: 24)
                             .padding()
@@ -110,7 +110,7 @@ struct LoginView: View {
                     }
                     
                     Button(action: {}) {
-                        Image("facebook-icon") 
+                        Image("fb") 
                             .resizable()
                             .frame(width: 24, height: 24)
                             .padding()
@@ -119,7 +119,7 @@ struct LoginView: View {
                     }
                     
                     Button(action: {}) {
-                        Image("apple-icon") 
+                        Image("apple") 
                             .resizable()
                             .frame(width: 24, height: 24)
                             .padding()
