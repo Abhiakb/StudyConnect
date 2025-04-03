@@ -21,6 +21,7 @@ struct SignInView: View {
             VStack(spacing: 20) {
                 
                 VStack {
+                    
                     Text("Create Account")
                         .font(.largeTitle)
                         .fontWeight(.bold)
