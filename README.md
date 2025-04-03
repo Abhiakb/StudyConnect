@@ -18,7 +18,7 @@
 2. **Session Tab** - Live/upcoming sessions
 3. **Group Tab** - Community groups
 4. **Profile Tab** - User profile and settings
-5. **Library Tab** - Saved content/resources
+
 
 ### Technical Highlights
 - MVVM architecture pattern
