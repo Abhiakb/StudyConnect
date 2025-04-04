@@ -8,7 +8,7 @@
 import SwiftUI
 import Charts
 
-struct AnalyticsView: View {
+struct ProfileView: View {
     struct StudyTime: Identifiable {
         let id = UUID()
         let group: String
@@ -24,26 +24,32 @@ struct AnalyticsView: View {
 
     var body: some View {
         NavigationStack {
+            HStack {
+                Text("Study Analytics")
+                    .font(.title.bold())
+                    .foregroundColor(.white)
+                
+                Spacer()
+            }
+            
+            .background(Color.blue)
             ScrollView {
                 VStack(spacing: 16) {
                     
                     // Header Section
-                    HStack {
-                        Text("Study Analytics")
-                            .font(.title2.bold())
-                            .foregroundColor(.white)
-                        Spacer()
-                    }
-                    .padding()
-                    .background(Color.blue)
+                   
 
                     // Study Summary
                     VStack(alignment: .leading, spacing: 8) {
-                        Text("Study Summary")
-                            .font(.headline)
-                        Text("Total sessions this week: 5")
-                        Text("Total study time: 8h 45m")
+                        VStack{
+                            Text("Study Summary")
+                                .font(.headline)
+                            Text("Total sessions this week: 5")
+                            Text("Total study time: 8h 45m")
+                        }
+                        .padding(.leading)
                     }
+                    .frame(maxWidth: 350)
                     .padding()
                     .background(Color(.systemGray6))
                     .cornerRadius(8)
@@ -113,14 +119,14 @@ struct AnalyticsView: View {
                     Spacer()
                 }
             }
-            .navigationTitle("Analytics")
+            .navigationTitle(".")
         }
     }
 }
 
 struct AnalyticsView_Previews: PreviewProvider {
     static var previews: some View {
-        AnalyticsView()
+        ProfileView()
     }
 }
 

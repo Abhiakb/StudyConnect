@@ -10,7 +10,7 @@ import SwiftUI
 struct GroupView: View {
     @State private var selectedFilter: String = "All"
     let filters = ["All", "My Groups", "Recommended"]
-
+    @State private var showSheet: Bool = false
     struct StudyGroup: Identifiable {
         let id = UUID()
         let name: String
@@ -35,6 +35,7 @@ struct GroupView: View {
                         .foregroundColor(.white)
                     Spacer()
                     Button("+ Create") {
+                        showSheet = true
                         // Action for creating a group
                     }
                     .padding(.horizontal, 12)
@@ -42,6 +43,9 @@ struct GroupView: View {
                     .background(Color.green)
                     .foregroundColor(.white)
                     .clipShape(RoundedRectangle(cornerRadius: 8))
+                    .sheet(isPresented: $showSheet){
+                        CreateStudyGroupView()
+                    }
                 }
                 .padding()
                 .background(Color.blue)
