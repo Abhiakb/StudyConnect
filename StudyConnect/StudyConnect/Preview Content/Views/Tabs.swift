@@ -18,7 +18,7 @@ struct MainTabView: View {
                     Label("Sessions", systemImage: "clock.fill")
                 }
             
-            ProfileView()
+            AnalyticsView()
                 .tabItem {
                     Label("Profile", systemImage: "person.crop.circle.fill")
                 }
